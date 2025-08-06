@@ -149,5 +149,17 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+<!-- something to help with the hamburger menu -->
+			<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggle = document.getElementById("menu-toggle");
+    const links = document.getElementById("menu-links");
+
+    toggle.addEventListener("click", () => {
+      links.style.display = links.style.display === "block" ? "none" : "block";
+    });
+  });
+</script>
+
 	</body>
 </html>
