@@ -3332,12 +3332,14 @@ input, select, textarea {
 
 		}
 
+
 /* Main */
 
 	#main {
 		background-color: #ffffff;
 		color: #636363;
 		border-radius: 0.25em;
+		margin-top: 4em;
 	}
 
 		#main input, #main select, #main textarea {
@@ -3784,3 +3786,60 @@ input, select, textarea {
 			}
 
 		}
+
+/*New!!!*/
+/*This is me trying to get the hamburger menu to only appear when someone is on a smartphone*/
+  #hamburger-menu {
+    display: none;
+  }
+
+  #menu-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #menu-links {
+    display: none;
+    list-style: none;
+    padding-left: 0;
+    background-color: #f7f7f7;
+    text-align: left;
+    padding: 1em;
+    border-radius: 8px;
+  }
+
+  #menu-links li {
+    margin: 0.5em 0;
+  }
+
+  #menu-links li a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 980px) {
+    #nav {
+      display: none !important;
+    }
+
+    #hamburger-menu {
+      display: block;
+      position: absolute;
+      top: 1em;
+      left: 1em;
+      z-index: 9999;
+    }
+  }
+
+/*  @media screen and (min-width: 981px) {
+    #hamburger-menu {
+      display: none !important;
+    }
+
+    #nav {
+      display: block !important;
+    }*/
+  }
