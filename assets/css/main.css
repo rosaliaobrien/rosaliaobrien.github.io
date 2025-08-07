@@ -3854,3 +3854,43 @@ input, select, textarea {
       display: block !important;
     }*/
   }
+
+
+/*To make images and captions larger when clicking on them!*/
+/* Lightbox container */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Show lightbox when anchor is targeted */
+.lightbox:target {
+  display: block;
+}
+
+/* Center the image and caption */
+.lightbox-content {
+  display: inline-block;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.lightbox img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.lightbox figcaption {
+  margin-top: 10px;
+  color: white;
+  font-size: 1.2em;
+}
+
+

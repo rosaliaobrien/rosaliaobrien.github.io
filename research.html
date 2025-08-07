@@ -50,95 +50,94 @@
 						</ul>
 					</div>
 
-				<!-- Main -->
-					<div id="main" style = "text-align:left;">
+<!-- Main -->
+<div id="main" style = "text-align:left;">
 
-							<section id="intro" class="main">
-								<header class="major">
-									<h2>My Research</h2>
-								</header>	
+	<section id="intro" class="main">
+		<header class="major">
+			<h2>My Research</h2>
+		</header>	
 
-								<p>My authored papers and presentations can be found in <a href="https://ui.adsabs.harvard.edu/public-libraries/3eAlRtXlRZy3L1w3ZXDfKw">my ADS Library</a>.</p>
+		<p>My authored papers and presentations can be found in <a href="https://ui.adsabs.harvard.edu/public-libraries/3eAlRtXlRZy3L1w3ZXDfKw">my ADS Library</a>.</p>
 
-								<!-- <h3>Using the Hubble Space Telescope</h3>
-								<p>HST has combined crisp, high-resolution images with a remarkably long operational life. Those two strengths, clarity and longevity, make HST much more than a camera for snapshots like the HUDF; they turn it into a time-lapse recorder for the Universe itself, able to capture how it changes with time. Most cosmic processes unfold on timescales far longer than a human lifetime: the Sun’s eventual expansion into a red giant, or the Milky Way–Andromeda merger, lie millions to billions of years ahead. Yet many phenomena change quickly enough to watch in real time if we have the right instrument. For example, moving targets in our Solar System, like comets and asteroids, drift appreciably in just minutes to days. The brightness of pulsating variable stars (called RR Lyrae stars and Cepheids) rises and falls over days to weeks.</p>
+		<h3>SKYSURF: The Diffuse Sky, as seen by Hubble</h3>
+		<p>The total sky brightness, as observed with the Hubble Space Telescope in low-Earth orbit, is not constant with time. The dominant contributor to Hubble night sky brightness is zodiacal light: sunlight scattered by microscopic dust that fills the space near the mid-plane of the Solar System. For context, zodiacal light supplies >90% of the photons that Hubble has ever received. As Earth moves around the Sun, we look through slightly different parts of this dust cloud, so the sky can brighten or fade significantly. </p>
 
-<p>After three decades in orbit, HST has logged more than 1.5 million individual exposures, totaling 30 terabytes of science-grade data (see <a href="https://science.nasa.gov/missions/hubble/nasas-hubble-makes-one-millionth-science-observation/">NASA’s Hubble Makes One Millionth Science Observation</a>). Because HST revisits thousands of sky fields, we can line up earlier and later images to see black holes flicker (variable AGN), stars explode, and even probe the structure of our Solar System's interplanetary dust cloud.</p> -->
 
-								<h3>The Diffuse Sky, as seen by Hubble</h3>
-								<p>The total sky brightness, as observed with the Hubble Space Telescope in low-Earth orbit, is not constant with time. The dominant contributor to Hubble night sky brightness is zodiacal light: sunlight scattered by microscopic dust that fills the space near the mid-plane of the Solar System. For context, zodiacal light supplies >90% of the photons that Hubble has ever received. As Earth moves around the Sun, we look through slightly different parts of this dust cloud, so the sky can brighten or fade significantly. </p>
+		<div style="overflow: hidden;"> 
+		<!-- Right-aligned figure -->
+		<div style="width: 40%; float: right; margin: 0 0 10px 10px;">
+		<a href="example_profound_map.html" target="_blank">
+		<figure>
+		<img src="images/example_profound_map.pdf" alt="example_profound_map" style="width: 100%;">
+		<figcaption style="font-size: small">Fig. 1 – SKYSURF sky-SB estimation algorithm performance, on two HST images. Click here for full caption.</a>
+		</figcaption>
+		</figure>
+		</a>
+		</div> 
 
-<div style="overflow: hidden;">
-  <!-- Right-aligned figure -->
-  <div style="width: 40%; float: right; margin: 0 0 10px 10px;">
-    <figure>
-      <img src="images/example_profound_map.pdf" alt="example_profound_map" style="width: 100%;">
-      <figcaption style="font-size: small">Fig. 1 – SKYSURF sky-SB estimation algorithms are able to mask areas of an image containing light from discrete objects or bright sky gradients. The top row shows two example images in our SKYSURF database. The bottom row shows corresponding ProFound SKY maps, with the borders of Pro-med sub-regions overlaid. The bottom left ProFound map corresponds to the top left image, and similarly for the right-most images. The sub-regions used for the Pro-med algorithm are overlaid with white or red borders. Red sub-regions are identified by our algorithms as likely containing light contamination, and are masked during sky-SB estimation. We show these images to demonstrate our ability to reject areas of an image, but emphasize that images like this are rejected for sky-SB analysis because they are too crowded, as identified by the amount of red sub-regions.</figcaption>
-    </figure>
-  </div>
+		<p>Zodiacal light is considered a diffuse component of the night sky brightness, because it is not discrete like individual stars and galaxies. However, it is not the only diffuse component Hubble can see. Starlight from the Milky Way is reflected and re-emitted by interstellar dust, producing diffuse Galactic light. Diffuse Galactic light is strongest toward the Galactic center and can rival or exceed zodiacal light in those directions.</p>
 
-								<p>Zodiacal light is considered a diffuse component of the night sky brightness, because it is not discrete like individual stars and galaxies. However, it is not the only diffuse component Hubble can see. Starlight from the Milky Way is reflected and re-emitted by interstellar dust, producing diffuse Galactic light. Diffuse Galactic light is strongest toward the Galactic center and can rival or exceed zodiacal light in those directions.</p>
+		<p>An even fainter component to the diffuse night sky brightness is the extragalactic background light (EBL), the sum of all photons being emitted by stars, dust, and growing black holes in galaxies outside of the Milky Way. At optical wavelengths, it consists mainly of light from stars within distant galaxies, with a smaller contribution from accretion onto supermassive black holes. The EBL is a remarkable thing to study, because it encodes information about all stars and galaxies across cosmic time. We resolve a large portion of it with space telescopes like Hubble. However, the unresolved portion is just as interesting, because this is where we can study objects that may otherwise be impossible to detect. Hidden within measurements of the diffuse EBL is the light from the faintest galaxies in the universe, for which we do not yet have the technology to see. It may also carry the light from the very first stars and galaxies that are more than 13 billion light-years away and otherwise very difficult to detect. Studying the EBL may even reveal contributions from never-before-seen exotic sources like dark matter powered stars or direct-collapse black holes.</p>
 
-								<p>An even fainter component to the diffuse night sky brightness is the extragalactic background light (EBL), the sum of all photons being emitted by stars, dust, and growing black holes in galaxies outside of the Milky Way. At optical wavelengths, it consists mainly of light from stars within distant galaxies, with a smaller contribution from accretion onto supermassive black holes. The EBL is a remarkable thing to study, because it encodes information about all stars and galaxies across cosmic time. We resolve a large portion of it with space telescopes like Hubble. However, the unresolved portion is just as interesting, because this is where we can study objects that may otherwise be impossible to detect. Hidden within measurements of the diffuse EBL is the light from the faintest galaxies in the universe, for which we do not yet have the technology to see. It may also carry the light from the very first stars and galaxies that are more than 13 billion light-years away and otherwise very difficult to detect. Studying the EBL may even reveal contributions from never-before-seen exotic sources like dark matter powered stars or direct-collapse black holes.</p>
+		<p>SKYSURF is the first Hubble program designed to measure these three components (zodiacal light, diffuse Galactic light, and the EBL) across the entire Hubble archive. By analyzing the sky surface brightness (sky-SB) in more than 200,000 images (totaling >20 TB), SKYSURF aims to deliver the most accurate, wavelength-dependent measurements of each contributor. Ground telescopes cannot match this because atmospheric airglow and light pollution mask much of the absolute sky surface-brightness. A list of current SKYSURF papers can be found at <a href="http://skysurf.asu.edu/results.html">skysurf.asu.edu</a>.</p>
 
-								<p>SKYSURF is the first Hubble program designed to measure these three components (zodiacal light, diffuse Galactic light, and the EBL) across the entire Hubble archive. By analyzing the sky surface brightness (sky-SB) in more than 200,000 images (totaling >20 TB), SKYSURF aims to deliver the most accurate, wavelength-dependent measurements of each contributor. Ground telescopes cannot match this because atmospheric airglow and light pollution mask much of the absolute sky surface-brightness. A list of current SKYSURF papers can be found at <a href="http://skysurf.asu.edu/results.html">skysurf.asu.edu</a>.</p>
+		<p><a href="https://ui.adsabs.harvard.edu/abs/2023AJ....165..237O/abstract">O'Brien et al. 2023</a> presented measurements of the absolute sky-SB across the full wavelength range of Hubble, from 0.2 to 1.6 &mu;m. This sky-SB is mostly zodiacal light, but includes diffuse Galactic light and EBL. Using over 150,000 Hubble images from the Hubble archive, we developed and applied a sky-SB measurement algorithm to extract robust sky-SB estimates from individual Hubble exposures. These measurements revealed expected trends with ecliptic latitude and Sun angle, confirming that zodiacal light is the dominant contributor to the observed sky background.</p>
 
-								<p><a href="https://ui.adsabs.harvard.edu/abs/2023AJ....165..237O/abstract">O'Brien et al. 2023</a> presented measurements of the absolute sky-SB across the full wavelength range of Hubble, from 0.2 to 1.6 &mu;m. This sky-SB is mostly zodiacal light, but includes diffuse Galactic light and EBL. Using over 150,000 Hubble images from the Hubble archive, we developed and applied a sky-SB measurement algorithm to extract robust sky-SB estimates from individual Hubble exposures. These measurements revealed expected trends with ecliptic latitude and Sun angle, confirming that zodiacal light is the dominant contributor to the observed sky background.</p>
+		<div style="overflow: hidden;">
+		<div style="width: 60%; float: right; margin: 0 0 10px 10px;">
+		<a href="comparing_to_other_models.html" target="_blank">
+		<figure>
+		<img src="images/comparing_to_other_models.pdf" alt="comparing_to_other_models" style="width: 100%;">
+		<figcaption style="font-size: small">Fig. 2 – Comparison of the SKYSURF zodiacal light model (Zodi2025) and other zodiacal light models to Hubble measurements of the sky-surface brightness. Click here for the full caption.</figcaption>
+		</figure>
+		</a>
+		</div>
 
-<div style="overflow: hidden;">
-  <!-- Right-aligned figure -->
-  <div style="width: 60%; float: right; margin: 0 0 10px 10px;">
-    <figure>
-      <img src="images/comparing_to_other_models.pdf" alt="comparing_to_other_models" style="width: 100%;">
-      <figcaption style="font-size: small">Fig. 2 – Comparison of the SKYSURF zodiacal light model (Zodi2025) and other zodiacal light models to Hubble measurements of the sky-surface brightness. The black circles represent sky-SB measurements from this work that are within 45 degrees of the ecliptic poles.
-      For these same measurements, we estimate the total sky-SB using the modeling in this work: Zodi2025+DGL. Similarly, we use the IPAC IRSA Background Model to retrieve the Kelsall and Wright predictions for those same observations. We also utilize the Cosmoglobe ZodiPy code to calculate zodiacal light predictions. We fit a two-dimensional polynomial to the Kelsall, Wright, and ZodiPy predictions, which are shown as dashed grey lines. The solid grey line represents the Gunagala implementation of the Aldering 2001 zodiacal light model.
-      Our SKYSURF zodiacal light model performs best across a broad range of Sun Angles and Ecliptic Latitudes relevant for HST observations. For comparison, we also show direct measurements of zodiacal light from Kawara et al. 2017 as open black circles, taken with the HST’s Faint Object Spectrograph.</figcaption>
-    </figure>
-  </div>
+		<p>O'Brien et al. 2025 (in prep) addresses a critical challenge in interpreting sky-SB measurements: modeling zodiacal light. Building upon the structure of the widely-used Kelsall et. al. 1998 model, we present a new zodiacal light model that is optimized for optical wavelengths. By updating the scattering phase function and albedo from the Kelsall model, we derive a model that matches Hubble observations with sub-percent random uncertainties. Compared to models developed for infrared missions, our model performs significantly better in the UV and visible, where previous models systematically over-predict the sky background. Despite these improvements, we detect a residual diffuse light signal of ~0.01 MJy sr<sup>-1</sup>, which may point to a missing isotropic component of the interplanetary dust cloud. The final model will be made publicly available and is intended for use by the broader astronomical community, especially for high-precision background estimation for space-based missions (HST, JWST, Euclid, SPHEREx, and Roman).</p>
 
-								<p>O'Brien et al. 2025 (in prep) addresses a critical challenge in interpreting sky-SB measurements: modeling zodiacal light. Building upon the structure of the widely-used Kelsall et. al. 1998 model, we present a new zodiacal light model that is optimized for optical wavelengths. By updating the scattering phase function and albedo from the Kelsall model, we derive a model that matches Hubble observations with sub-percent random uncertainties. Compared to models developed for infrared missions, our model performs significantly better in the UV and visible, where previous models systematically over-predict the sky background. Despite these improvements, we detect a residual diffuse light signal of ~0.01 MJy sr<sup>-1</sup>, which may point to a missing isotropic component of the interplanetary dust cloud. The final model will be made publicly available and is intended for use by the broader astronomical community, especially for high-precision background estimation for space-based missions (HST, JWST, Euclid, SPHEREx, and Roman).</p>
+		<h3>TREASUREHUNT Identification of Faint Variable AGN & Supernovae</h3>
 
-								<h3>Identification of Faint Variable AGN & Supernovae</h3>
+		<div style="overflow: hidden;">
+		<div style="width: 50%; float: right; margin: 0 0 10px 10px;">
+		<a href="overlapping_footprints.html">
+		<figure>
+		<img src="images/overlapping_footprints.pdf" alt="overlapping_footprints" style="width: 100%;">
+		<figcaption style="font-size: small">Fig. 3 - Full extent of Hubble ACS/WFC coverage of the JWST NEP TDF. Click here for the full caption. </figcaption>
+		</figure>
+		</a>
+		</div>
 
-								<div style="overflow: hidden;">
-  <!-- Right-aligned figure -->
-  <div style="width: 50%; float: right; margin: 0 0 10px 10px;">
-    <figure>
-      <img src="images/overlapping_footprints.pdf" alt="overlapping_footprints" style="width: 100%;">
-      <figcaption style="font-size: small">Fig. 3 - Full extent of Hubble ACS/WFC coverage of the JWST NEP TDF. Regions of overlap between visits in the mosaic are highlighted in progressively darker shades of grey for areas of 2-, 3-, and 4-epoch overlap. This paper focuses on these regions of overlap, with a total area of 87.94 arcmin<sub>2</sub>, to investigate transients and variable sources. Red circles mark the positions of the 12 identified transients, while blue squares and diamonds mark the 190 unique variable candidates discovered in this study. Symbol shapes and colors identify the samples from which individual variables were selected, as indicated by the legend at the top of the figure. For comparison, the JWST/NIRCam coverage of this field is outlined in orange. </figcaption>
-    </figure>
-  </div>
+		<p>In <a href="https://ui.adsabs.harvard.edu/abs/2024ApJS..272...19O/abstract">O'Brien et al. 2024</a>, we utilized repeated Hubble imaging of the JWST North Ecliptic Pole Time-Domain Field. This field is uniquely suited for transient searches due to its continuous visibility by JWST, minimal zodiacal light contamination, and extensive multi-wavelength coverage. As part of the TREASUREHUNT program, we conducted a systematic search for time-variable sources using ACS/WFC imaging in two HST filters: F435W (~0.4 &mu;m) and F606W (~0.6 &mu;m). We identified 12 transient events, most likely supernovae, as well as three X-ray detected sources potentially associated with faint quasars or high-redshift transients. We also found that approximately 0.42% of field galaxies exhibit significant variability indicative of AGN activity, with 190 variable galaxy cores identified. </p>
 
-								<p>In <a href="https://ui.adsabs.harvard.edu/abs/2024ApJS..272...19O/abstract">O'Brien et al. 2024</a>, we utilized repeated Hubble imaging of the JWST North Ecliptic Pole Time-Domain Field. This field is uniquely suited for transient searches due to its continuous visibility by JWST, minimal zodiacal light contamination, and extensive multi-wavelength coverage. As part of the TREASUREHUNT program, we conducted a systematic search for time-variable sources using ACS/WFC imaging in two HST filters: F435W (~0.4 &mu;m) and F606W (~0.6 &mu;m). We identified 12 transient events, most likely supernovae, as well as three X-ray detected sources potentially associated with faint quasars or high-redshift transients. We also found that approximately 0.42% of field galaxies exhibit significant variability indicative of AGN activity, with 190 variable galaxy cores identified. </p>
+	</section>
 
-							</section>
+<!-- Footer -->
+<footer id="footer">
+	<section>
+		<h2>Contact Me!</h2>
+		<dl class="alt">
+			<dt>Email</dt>
+			<dd><a href="mailto:robrien5@asu.edu">robrien5@asu.edu</a></dd>
+			<dd><a href="mailto:rosalia.d.obrien@gmail.com">rosalia.d.obrien@gmail.com</a></dd>
+		</dl>
+		<ul class="icons">
+			<li><a href="https://github.com/rosaliaobrien/skysurf" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+			<li><a href="https://www.linkedin.com/in/rosalia-o-brien-146444280" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+		</ul>
+	</section>
+	<section>
+		<h2>Background Image Info</h2>
+		<p><a href='https://webbtelescope.org/contents/media/images/01GM3WVZFBH5S7Y6E0EXH1EH0Y'>The JWST North Ecliptic Pole Time Domain Field</a></p>
+		<p>Credit: NASA, ESA, CSA, Rolf A. Jansen (ASU), Jake Summers (ASU), Rosalia O'Brien (ASU), Rogier Windhorst (ASU), Aaron Robotham (UWA), Anton M. Koekemoer (STScI), Christopher Willmer (University of Arizona), JWST PEARLS Team</p>
+		<!-- <ul class="actions">
+			<li><a href="generic.html" class="button">Learn More</a></li>
+		</ul> -->
+	</section>
+	<p class="copyright">&copy; 2025. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+</footer>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<h2>Contact Me!</h2>
-							<dl class="alt">
-								<dt>Email</dt>
-								<dd><a href="mailto:robrien5@asu.edu">robrien5@asu.edu</a></dd>
-								<dd><a href="mailto:rosalia.d.obrien@gmail.com">rosalia.d.obrien@gmail.com</a></dd>
-							</dl>
-							<ul class="icons">
-								<li><a href="https://github.com/rosaliaobrien/skysurf" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-								<li><a href="https://www.linkedin.com/in/rosalia-o-brien-146444280" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
-							</ul>
-						</section>
-						<section>
-							<h2>Background Image Info</h2>
-							<p><a href='https://webbtelescope.org/contents/media/images/01GM3WVZFBH5S7Y6E0EXH1EH0Y'>The JWST North Ecliptic Pole Time Domain Field</a></p>
-							<p>Credit: NASA, ESA, CSA, Rolf A. Jansen (ASU), Jake Summers (ASU), Rosalia O'Brien (ASU), Rogier Windhorst (ASU), Aaron Robotham (UWA), Anton M. Koekemoer (STScI), Christopher Willmer (University of Arizona), JWST PEARLS Team</p>
-							<!-- <ul class="actions">
-								<li><a href="generic.html" class="button">Learn More</a></li>
-							</ul> -->
-						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
-
-			</div>
+</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
